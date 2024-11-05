@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Šachy</title>
+    <style>
+        /* Tmavý režim */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #E0E0E0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1F1F1F;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .content {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #F1C40F;
+        }
+
+        p {
+            font-size: 1.1em;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1F1F1F;
+            color: #B0B0B0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        a {
+            color: #F1C40F;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Šachy - Moje vášeň</h1>
+</header>
+
+<section>
+    <div class="content">
+        <h2>O mně</h2>
+        <p>Ahoj! Jsem nadšený šachista a věnuji se šachům už několik let. Rád se účastním turnajů a zlepšuji své dovednosti. Tato stránka je věnována mému zájmu o šachy a věřím, že zde najdete inspiraci nebo zajímavé informace o této hře.</p>
+    </div>
+
+    <div class="content">
+        <h2>Proč šachy?</h2>
+        <p>Šachy jsou nejenom skvělou hrou, ale také vynikajícím způsobem, jak trénovat logické myšlení, plánování a strategii. Každá partie je výzvou, která mě posouvá dál, ať už vyhrávám nebo prohrávám.</p>
+    </div>
+
+    <div class="content">
+        <h2>Moje oblíbené šachové partie</h2>
+        <p>Vždy mě zajímaly skvělé partie od mistrů, jako jsou Garry Kasparov, Magnus Carlsen nebo Bobby Fischer. Tyto partie jsou inspirací pro moje vlastní hraní a analýzy.</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>Kontakt: <a href="mailto:tvujemail@example.com">tvujemail@example.com</a></p>
+</footer>
+
+</body>
+</html>
